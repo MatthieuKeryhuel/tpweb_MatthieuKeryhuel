@@ -27,7 +27,7 @@
 {
     font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
     color: #ebdec2;
-    font-weight: 650px;
+    font-weight: 680;
     text-align: right;
     font-size: 50px;
     margin-bottom: 30px;
@@ -47,44 +47,124 @@
 
 
 
-.text-right a
-{
+#influence a{
     display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin-bottom: 60px;
-    margin-top: 15px;
-    padding: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-     padding: 16px 40px;
-    font-size: 1.08rem;
-    line-height: 1.5;
-    font-weight: 400;
-    background: rgba(0,0,0,.4);
-    border: 1px solid #f7b10a;
-    color: #f7b10a;
-    min-width: 180px;
+    padding:12px 30px;
+    border: 1px solid #c77e19;
+    color:#ffd36b;
     text-transform: uppercase;
-    -webkit-transition: .2s,color .2s;
-    transition: .2s,color .2s;
-    position: relative;
-    z-index: 1
-
-
+    text-decoration: none;  
+    margin-bottom:70px;
 
 }
+
 .text-right a:hover 
 {
 	border: 1px solid#b06716;
     background-color: #b06716;
      color: #F9D888;
+}
+
+
+
+
+
+
+
+
+#avenement
+{
+    background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/LU2VY3R9P1L01586989638352.jpg);
+    background-position: center;
+    background-size:cover;
+    border-bottom:solid 3px black;
+
+}
+
+#avenement h2
+{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    color: #ebdec2;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#avenement h1
+{
+    font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 680;
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#avenement p
+{
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    color: #ebdec2;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+
+#avenement a
+{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.abonnement
+{
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgba(159, 22, 0, 0.6);
+    border: 1px solid #ea3012;
+    color: #f7b10a
+    
+
+}
+
+
+.abonnement:hover 
+{
+    background-color: #9f1600;
+    text-decoration: none;
+    color: #F9D888;
+}
+
+
+
+.savoir
+{   
+
+    background: rgba(0,0,0,.4);
+    display: inline-block;
+    padding:12px 30px;
+    border: 1px solid #c77e19;
+    color:#ffd36b;
+    text-transform: uppercase;
+    text-decoration: none;  
+    margin-bottom:70px;
+        
+}
+
+.savoir:hover 
+{
+    background-color: #b06716;
+    text-decoration: none;
+    color: #F9D888;
 }
